@@ -1,85 +1,16 @@
 /*
   Tags
 */
-body {
-  background-color: #141D2B;
-  color: #9EABC6;
-  font-family: monospace;
-  font-size: 150%;
-  margin: 0;
-  text-align: center;
-}
 
-h1 {
-  color: #4AE85B;
-  margin-top: 0;
-}
-
-h2{
-  color: white;
-}
-
-h3{
-  color: white;
-}
-
-hr{
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-img{
-  object-fit: contain;
-}
-
-.Underline {
-  text-decoration: underline;
-}
 
 /*
   Header
 */
-.TopContainer {
-  background-color: #131C2A;
-  padding-top: 80px;
-  position: relative;
-}
-
-.KieranPfP {
-  clip-path: circle();
-  width: 15%;
-}
-.HeaderPic {
-  display: block;
-  height: 20%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
 /*
   Main Section
 */
-main{
-  background-color: #2A3C59;
-}
+
 
 /*
   Footer
-*/
-.BottomContainer {
-  position: relative;
-}
-
-.footer-link {
-  width: 5%;
-}
-
-.ContactButton {
-  background-color: green;
-  color: black;
-  font-family: monospace;
-  font-size: 110%;
-  height: 20%;
-  width: 10%;
-}
