@@ -1,16 +1,53 @@
 /*
   Tags
 */
+*{
+  color: #9EABC6;
+  font-family: monospace;
+  margin: 0;
+}
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid{
+  padding: 5%;
+}
 
 /*
   Header
 */
+header{
+  background-color: #131C2A;
+  margin: 0;
+}
+.kieranPfPImg{
+  width: 150px;
+}
+.kieranDeskImg{
+  width: 50%;
+}
 
 /*
   Main Section
 */
+main{
+  background-color: #2A3C59;
+  margin: 0;
+}
 
 
 /*
   Footer
+*/
+footer{
+  background-color: #1c283b;
+  margin: 0;
+}
+
+a > img{
+  width: 50px;
+}
