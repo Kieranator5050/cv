@@ -1,3 +1,6 @@
+/*
+  Tags
+*/
 body {
   background-color: #141D2B;
   color: #9EABC6;
@@ -33,6 +36,9 @@ img{
   text-decoration: underline;
 }
 
+/*
+  Header
+*/
 .TopContainer {
   background-color: #131C2A;
   padding-top: 80px;
@@ -51,45 +57,16 @@ img{
   width: 50%;
 }
 
-.MiddleContainer {
-  margin: auto;
-  position: relative;
-}
-
-.skills {
+/*
+  Main Section
+*/
+main{
   background-color: #2A3C59;
 }
 
-.skillsheader {
-  margin-top: 0;
-  padding-top: 20px;
-}
-
-.SkillPicLeft {
-  float: left;
-  margin-right: 30px;
-  width: 150px;
-}
-.SkillPicRight {
-  float: right;
-  margin-left: 30px;
-  width: 150px;
-}
-
-.SkillDescriptionLeft {
-  clear: right;
-}
-.SkillDescriptionRight {
-  clear: left;
-}
-
-.skill-row {
-  line-height: 2;
-  margin: 50px auto 50px auto;
-  text-align: left;
-  width: 50%;
-}
-
+/*
+  Footer
+*/
 .BottomContainer {
   position: relative;
 }
