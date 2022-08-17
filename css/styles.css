@@ -6,10 +6,13 @@
   font-family: monospace;
   margin: 0;
 }
+html{
+  background-color: #1c283b;
+}
 
 h1{
   transition: 400ms;
-  color: #4AE85B;
+  color: #4AE85B;;
 }
 h1:hover{
   transition: 200ms;
@@ -21,7 +24,7 @@ a{
 }
 p > a:hover{
   transition: 200ms;
-  font-size: larger;
+  font-size: 120%;
 }
 
 img {
@@ -33,9 +36,6 @@ img {
 /*
   Bootstrap Classes
 */
-.container-fluid{
-  padding: 5%;
-}
 
 
 /*
@@ -44,7 +44,7 @@ img {
 header{
   background-color: #131C2A;
   margin: 0;
-  padding: 5% 5% 0 5%;
+  padding: 25px 25px 0 25px;
 }
 
 .kieranPfPImg{
