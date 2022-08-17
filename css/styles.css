@@ -46,12 +46,25 @@ header{
   margin: 0;
   padding: 5% 5% 0 5%;
 }
+
 .kieranPfPImg{
+  transition: 400ms;
   width: 13%;
 }
+.kieranPfPImg:hover{
+  transition: 200ms;
+  width: 14%;
+}
+
 .kieranDeskImg{
+  transition: 400ms;
   width: 50%;
 }
+.kieranDeskImg:hover{
+  transition: 200ms;
+  width: 52%;
+}
+
 
 /*
   Main Section
@@ -73,5 +86,10 @@ footer{
 }
 
 a > img{
+  transition: 400ms;
   width: 50px;
+}
+a > img:hover{
+  transition: 200ms;
+  width: 80px;
 }
