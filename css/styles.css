@@ -16,7 +16,7 @@ h1{
 }
 h1:hover{
   transition: 200ms;
-  font-size: 250%;
+  font-size: 300%;
 }
 
 a{
@@ -36,7 +36,9 @@ img {
 /*
   Bootstrap Classes
 */
-
+.accordion-body{
+  margin-bottom: 20px;
+}
 
 /*
   Header
