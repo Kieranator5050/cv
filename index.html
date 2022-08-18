@@ -2,12 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Kieran's Personal Website</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon_io/favicon.ico">
+    <title>Kieran's Personal Website</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
   </head>
   <body>
 
@@ -16,59 +20,66 @@
 
       <!--Container For Header Contents-->
       <div class="container-fluid text-center m-0 p-0" id="mainHead">
-        <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg" src="images/Kieran_potato.jpg" alt="kieran-pic">
-        <h1>KIERAN JAGGERNAUTH</h1>
+        
+        <img id="pfp" class="img-fluid mx-auto d-block rounded-circle kieranPfPImg" src="images/Kieran_potato.jpg" alt="kieran-pic">
+
+        <h1 id="profileHeader">KIERAN JAGGERNAUTH</h1>
         <p class="lead">
-          <a class="text-decoration-none" type="button">
+          <a id="swenLink" class="text-decoration-none" type="button">
             SOFTWARE ENGINEER
           </a>
         </p>
         <p class="lead">
-          <a class="text-decoration-none" type="button">
+          <a id="webDevLink" class="text-decoration-none" type="button">
             WEB DEVELOPER
           </a>
         </p>
         <p class="lead">
-          <a class="text-decoration-none" type="button">
+          <a id="musLink" class="text-decoration-none" type="button">
             MUSICIAN
           </a>
         </p>
       </div>
 
-      <!--SWEN Container-->
-      <div class="container-fluid text-center m-0 p-0" id="swenDiv">
-        <h1>SOFTWARE ENGINEER</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
-        <button class="btn btn-secondary px-5 my-5">Back</button>
-      </div>
+      <div id="subContainers">
+        <!--SWEN Container-->
+        <div class="container-fluid text-center m-0 p-0" id="swenDiv">
+          <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg" src="images/Kieran_dev.jpg" alt="kieran-pic">
+          <h1 id="swenHeader">SOFTWARE ENGINEER</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
+          <button class="btn btn-secondary px-5 my-5 toHome">Back</button>
+        </div>
 
-      <!--WEB DEV Container-->
-      <div class="container-fluid text-center m-0 p-0" id="wdevDiv">
-        <h1>WEB DEVELOPER</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
-        <button class="btn btn-secondary px-5 my-5">Back</button>
-      </div>
-
-      <!--MUSIC Container-->
-      <div class="container-fluid text-center m-0 p-0" id="musDiv">
-        <h1>MUSICIAN</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
-        <button class="btn btn-secondary px-5 my-5">Back</button>
+        <!--WEB DEV Container-->
+        <div class="container-fluid text-center m-0 p-0" id="wdevDiv">
+          <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg" src="images/Kieran_dev.jpg" alt="kieran-pic">
+          <h1 id="wdevHeader">WEB DEVELOPER</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
+          <button class="btn btn-secondary px-5 my-5 toHome">Back</button>
+        </div>
+        
+        <!--MUSIC Container-->
+        <div class="container-fluid text-center m-0 p-0" id="musDiv">
+          <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg" src="images/Kieran_music.jpg" alt="kieran-pic">
+          <h1 id="musHeader">MUSICIAN</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
+          <button class="btn btn-secondary px-5 my-5 toHome">Back</button>
+        </div>
       </div>
 
       <!--Last Image-->
       <img class="img-fluid mx-auto d-block" id="kieranDeskImg" src="images/computer2mod.png" alt="techpic">
-
+      
     </header>
 
     <footer>
-      <div class="container-fluid text-center">
+      <div class="container-fluid text-center" id="contactInfo">
         <a class="btn" href="mailto:kieranjag@hotmail.com">
           <img src="images/hotmail.png" alt="">
         </a>
