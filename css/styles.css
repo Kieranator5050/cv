@@ -41,7 +41,7 @@ img {
 }
 
 /*
-  Header
+  Header Container & Images
 */
 header{
   background-color: #131C2A;
@@ -58,13 +58,29 @@ header{
   width: 14%;
 }
 
-.kieranDeskImg{
+#kieranDeskImg{
   transition: 400ms;
   width: 50%;
 }
-.kieranDeskImg:hover{
+#kieranDeskImg:hover{
   transition: 200ms;
   width: 52%;
+}
+
+/*
+  Header Bodies
+*/
+#mainHead{
+}
+
+#swenDiv{
+  display: none;
+}
+#wdevDiv{
+  display: none;
+}
+#musDiv{
+  display: none;
 }
 
 
