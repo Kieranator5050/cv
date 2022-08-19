@@ -34,9 +34,8 @@ document.addEventListener('DOMContentLoaded',function(){
 
     //Fade ins on landing--------------
     mainHeadDiv.fadeTo(2000,1);
-    $("#contactInfo").fadeTo(6000,1);
     //---------------------------------
-
+ 
     /**
      * SWEN Click
      */

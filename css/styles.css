@@ -142,7 +142,3 @@ a > img:hover{
   transition: 200ms;
   width: 80px;
 }
-
-#contactInfo{
-  display: none;
-}
