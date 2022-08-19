@@ -1,8 +1,17 @@
+function fadeImgTransition(newImgPath){
+    $("#pfp").fadeTo(1000,0.30, function() {
+        $("#pfp").attr("src",newImgPath);
+    }).fadeTo(500,1)
+}
+
 document.addEventListener('DOMContentLoaded',function(){
     
     /**
      * Element Variables
      */
+    //Images
+    var profilePic = $("#pfp");
+
     //Divs
     var mainHeadDiv = $("#mainHead"); 
 
@@ -15,41 +24,71 @@ document.addEventListener('DOMContentLoaded',function(){
     var wdevLink = $("#webDevLink");
     var musLink = $("#musLink");
 
-    //Fade ins on landing
-    mainHeadDiv.fadeIn(2000);
-    $("#contactInfo").fadeIn(6000)
+    //Delay Values
+    var timeoutDelay = 1000;
+    var divAnimDuration = 1000;
+    var fadeDuration = 250;
+
+    //Animiation Type
+    var divAnimationType = 'fold';
+
+    //Fade ins on landing--------------
+    mainHeadDiv.fadeTo(2000,1);
+    $("#contactInfo").fadeTo(6000,1);
+    //---------------------------------
 
     /**
      * SWEN Click
      */
     $("#swenLink").click(function(){
-        wdevDiv.fadeOut(1000);
-        musDiv.fadeOut(1000);
+
+        wdevLink.fadeTo(fadeDuration,0.5);
+        musLink.fadeTo(fadeDuration,0.5);
+
+        fadeImgTransition("./images/Kieran_potato.jpg");
+
+        wdevDiv.hide(divAnimationType, {direction: 'left'}, divAnimDuration);
+        musDiv.hide(divAnimationType, {direction: 'left'}, divAnimDuration);
         setTimeout(function(){
-            swenDiv.fadeIn(1000);
-        },1000)
+            swenLink.fadeTo(250,1);
+            swenDiv.show(divAnimationType, {direction: 'right'}, divAnimDuration);
+        },timeoutDelay)
     })
 
     /**
      * Web Dev Click
      */
     $("#webDevLink").click(function(){
-        swenDiv.fadeOut(1000);
-        musDiv.fadeOut(1000);
+
+        swenLink.fadeTo(fadeDuration,0.5);
+        musLink.fadeTo(fadeDuration,0.5);
+
+        fadeImgTransition("./images/Kieran_dev.jpg");
+        
+        swenDiv.hide(divAnimationType, {direction: 'left'}, divAnimDuration);
+        musDiv.hide(divAnimationType, {direction: 'left'}, divAnimDuration);
         setTimeout(function(){
-            wdevDiv.fadeIn(1000);
-        },1000)
+            wdevLink.fadeTo(fadeDuration,1);
+            wdevDiv.show(divAnimationType, {direction: 'right'}, divAnimDuration);
+        },timeoutDelay)
     })
 
     /**
      * Music Click
      */
     $("#musLink").click(function(){
-        swenDiv.fadeOut(1000);
-        wdevDiv.fadeOut(1000);
+
+        swenLink.fadeTo(fadeDuration,0.5);
+        wdevLink.fadeTo(fadeDuration,0.5);
+        
+        fadeImgTransition("./images/Kieran_music.jpg");
+        
+        swenDiv.hide(divAnimationType, {direction: 'left'}, divAnimDuration);
+        wdevDiv.hide(divAnimationType, {direction: 'left'}, divAnimDuration);
         setTimeout(function(){
-            musDiv.fadeIn(1000);
-        },1000)
+            musLink.fadeTo(fadeDuration,1);
+            musDiv.show(divAnimationType, {direction: 'right'}, divAnimDuration);
+        },timeoutDelay)
     })
     
 })
