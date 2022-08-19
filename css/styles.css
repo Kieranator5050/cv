@@ -20,6 +20,11 @@ h1:hover{
   font-size: 300%;
 }
 
+h2{
+  transition: 200ms;
+  padding-bottom: 20px;
+}
+
 a{
   transition: 400ms;
 }
@@ -29,7 +34,6 @@ p > a:hover{
 }
 
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -75,7 +79,6 @@ header{
 }
 
 #kieranDeskImg{
-  display: none;
   transition: 400ms;
   width: 50%;
 }
@@ -95,7 +98,6 @@ header{
 }
 #subContainers{
   transition: 200ms;
-  display: none;
 }
 #swenDiv{
   display: none;
@@ -107,6 +109,9 @@ header{
   display: none;
 }
 
+.skilldiv{
+  background-color: #2A3C59;
+}
 
 /*
   Main Section
