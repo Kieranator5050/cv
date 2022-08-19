@@ -9,6 +9,12 @@
 }
 html{
   background-color: #1c283b;
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  background-color: #1c283b !important;
 }
 
 h1{
