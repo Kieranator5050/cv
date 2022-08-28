@@ -2,7 +2,7 @@
   Tags
 */
 *{
-  color: #9EABC6;
+  color: #89b0f5;
   font-family: monospace;
   margin: 0;
   transition: 200ms;
@@ -27,8 +27,17 @@ h1:hover{
 }
 
 h2{
+  color: orange;
   transition: 200ms;
   padding-bottom: 20px;
+}
+h2:hover{
+  font-size: 250%;
+  transition: 400ms;
+}
+
+h4{
+  color: orange !important;
 }
 
 a{
@@ -98,27 +107,9 @@ header{
 
 
 /*
-  Header Bodies
+  Header
 */
-#mainHead{
-  display: none;
-}
-#subContainers{
-  transition: 200ms;
-}
-#swenDiv{
-  display: none;
-}
-#wdevDiv{
-  display: none;
-}
-#musDiv{
-  display: none;
-}
 
-.skilldiv{
-  background-color: #2A3C59;
-}
 
 /*
   Main Section
@@ -128,9 +119,45 @@ main{
   padding: 20px 75px 20px;
 }
 */
+#mainHead{
+  display: none;
+}
 
+#content-container{
+  display: none;
+}
 
+#swenDiv{
+  display: none;
+}
 
+#wdevDiv{
+  display: block;
+}
+
+#musDiv{
+  display: none;
+}
+
+.flex-item{
+  margin: 10px;
+}
+.skilldiv{
+  background-color: #2A3C59;
+}
+
+.skillContainer{
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: 400ms;
+}
+.skillContainer:hover {
+  background-color: #202d41;
+  transform: scaleY(1.05);
+  transform: scaleX(1.05);
+  transform-origin: bottom;
+  transition: 200ms;
+}
 /*
   Footer
 */
