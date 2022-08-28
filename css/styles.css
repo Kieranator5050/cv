@@ -54,6 +54,10 @@ img {
   height: auto;
 }
 
+@media only screen and (max-width: 700px) {
+  
+}
+
 /*
   Bootstrap Classes
 */
@@ -103,7 +107,28 @@ header{
   width: 54%;
 }
 
+@media only screen and (max-width: 800px) {
 
+  .kieranPfPImg{
+    transition: 400ms;
+    width: 43%;
+    animation: pulse 3s linear infinite;
+  }
+  .kieranPfPImg:hover{
+    transition: 200ms;
+    width: 44%;
+  }
+
+  #kieranDeskImg{
+    transition: 400ms;
+    width: 80%;
+  }
+  #kieranDeskImg:hover{
+    transition: 200ms;
+    width: 84%;
+  }
+
+}
 
 
 /*
