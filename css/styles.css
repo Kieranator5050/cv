@@ -186,7 +186,7 @@ main{
   margin: 10px;
 }
 .skilldiv{
-  background-color: #2A3C59;
+  background-color: #1c283b;
 }
 
 .skillContainer{
@@ -195,7 +195,7 @@ main{
   transition: 400ms;
 }
 .skillContainer:hover {
-  background-color: #202d41;
+  background-color: #2a3950;
   transform: scaleY(1.05);
   transform: scaleX(1.05);
   transform-origin: bottom;
