@@ -132,7 +132,7 @@ main{
 }
 
 #wdevDiv{
-  display: none;
+  display: block;
 }
 
 #musDiv{
