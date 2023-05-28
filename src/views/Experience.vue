@@ -1,6 +1,6 @@
 <script lang="ts">
 export default {
-  name: "Landing",
+  name: "Experience",
   created() {},
   data() {
     return {};
@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <h2>Landing</h2>
+  <h2>Experience</h2>
 </template>
 
 <style lang="scss" scoped>
