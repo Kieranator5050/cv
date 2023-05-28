@@ -15,7 +15,7 @@ export default {
         
     <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg mb-2" src="images/Kieran_potato.jpg" alt="kieran-pic">
 
-    <RouterLink class="title text-decoration-none" to="/"> KIERAN JAGGERNAUTH </RouterLink>
+    <RouterLink class="title text-decoration-none name" to="/"> KIERAN JAGGERNAUTH </RouterLink>
     
     <nav>
         <RouterLink to="/certs" class="text-decoration-none" type="button">
@@ -36,6 +36,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.name{
+  &:hover{
+    font-size: 22px;
+  }
+}
+
 nav{
   display: flex;
   flex-direction: row;
