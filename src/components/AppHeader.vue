@@ -19,7 +19,7 @@ export default {
     
     <nav>
         <RouterLink to="/certs" class="text-decoration-none" type="button">
-          <i class="fa-solid fa-code text-primary"></i> CERTIFICATIONS & SKILLS
+          <i class="fa-solid fa-code text-primary"></i> CERTIFICATIONS
         </RouterLink>
         <RouterLink to="/portfolio" class="text-decoration-none" type="button">
           <i class="fa-solid fa-window-maximize text-primary"></i> PORTFOLIO
@@ -38,19 +38,26 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .active{
   color: #4AE85B; 
-  font-size:xx-large;
+  font-size: 22px;
 }
 
-h1{
+a{
   transition: 400ms;
-  color: #4AE85B;
+  margin: 15px;
+  @media only screen and (max-width: 600px) {
+    margin: 5px;
+  }
   &:hover{
       transition: 200ms;
-      font-size: 260%;
+      font-size: 24px;
   }
 }
 
