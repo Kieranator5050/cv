@@ -27,13 +27,13 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss">
   a > img{
     transition: 400ms;
     width: 50px;
-  }
-  a > img:hover{
-    transition: 200ms;
-    width: 52px;
+    &:hover{
+      transition: 200ms;
+      transform: scale(1.2);
+    }
   }
 </style>
