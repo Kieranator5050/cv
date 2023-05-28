@@ -42,8 +42,11 @@ header{
 
 main{
   background-color: #131C2A;
-  flex: auto;
   position: relative;
+  display: flex;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 footer{
