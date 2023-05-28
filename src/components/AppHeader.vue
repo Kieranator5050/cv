@@ -19,13 +19,16 @@ export default {
     
     <nav>
         <RouterLink to="/certs" class="text-decoration-none" type="button">
-          <i class="fa-solid fa-code text-primary"></i> CERTIFICATIONS
+          <i :class="$route.path==='/certs' ? 'fa-solid fa-certificate text-warning' : 'fa-solid fa-certificate' "></i> CERTIFICATIONS
         </RouterLink>
         <RouterLink to="/portfolio" class="text-decoration-none" type="button">
-          <i class="fa-solid fa-window-maximize text-primary"></i> PORTFOLIO
+          <i :class=" $route.path==='/portfolio' ? 'fa-solid fa-folder-open text-warning' : 'fa-solid fa-folder'"></i> PORTFOLIO
         </RouterLink>
         <RouterLink to="/experience" class="text-decoration-none" type="button">
-          <i class="fa-solid fa-music text-primary"></i> EXPERIENCE
+          <i :class="$route.path==='/experience' ? 'fa-solid fa-timeline text-warning' : 'fa-solid fa-timeline'"></i> EXPERIENCE
+        </RouterLink>
+        <RouterLink to="/about" class="text-decoration-none" type="button">
+          <i :class="$route.path==='/about' ? 'fa-solid fa-user text-warning' : 'fa-solid fa-user'"></i> About
         </RouterLink>
     </nav>
 
@@ -46,18 +49,19 @@ nav{
 
 .active{
   color: #4AE85B; 
-  font-size: 22px;
+  font-size: 20px;
 }
 
 a{
   transition: 400ms;
   margin: 15px;
+  font-size: 18px;
   @media only screen and (max-width: 600px) {
     margin: 5px;
   }
   &:hover{
       transition: 200ms;
-      font-size: 24px;
+      transform: scale(1.1);
   }
 }
 

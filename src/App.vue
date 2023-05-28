@@ -44,9 +44,9 @@ main{
   background-color: #131C2A;
   position: relative;
   display: flex;
+  flex-direction: column;
   flex: auto;
   align-items: center;
-  justify-content: center;
 }
 
 footer{
