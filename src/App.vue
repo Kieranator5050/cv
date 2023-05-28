@@ -19,7 +19,9 @@ export default {
   </header>
 
   <main>
-    <RouterView />
+    <Transition name="fade" appear>
+      <RouterView />
+    </Transition>
   </main>
 
   <footer>
@@ -28,7 +30,7 @@ export default {
   
 </template>
 
-<style scoped>
+<style lang="scss">
 .app-container {
   min-height: 100vh;
   display: flex;
@@ -52,5 +54,20 @@ main{
 footer{
   background-color: #1c283b;
   margin-top: auto;
+}
+
+.fade-enter-active {
+  transition: all 0.5s ease-out;
+}
+
+.fade-leave-active {
+  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.fade-enter-from {
+  opacity: 0;
+}
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

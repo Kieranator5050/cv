@@ -16,8 +16,6 @@ export default {
     <h2>Musician</h2>
   </div>
 
-
-
   <img class="img-fluid mx-auto d-block" id="kieranDeskImg" src="images/computer2mod.png" alt="techpic">
 </template>
 
