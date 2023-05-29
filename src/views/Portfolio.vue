@@ -17,7 +17,7 @@ export default {
       <Card
       class="clickable"
       heading="SpeakEzAAC"
-      source-img="/images/portfolio/speakez.png"
+      source-img="/images/speakez.png"
       >
       <p>Capstone Project for Computer Science at UWI</p>
       <p>An intuitive AAC appliction designed to help children with speech or hearing impediments communicate</p>
@@ -32,7 +32,7 @@ export default {
       <Card
       class="clickable"
       heading="TinDog"
-      source-img="/images/portfolio/tindog.png"
+      source-img="/images/tindog.png"
       >
       <p>Simple bootstrap website built for responsiveness</p>
       <a class="btn" href="https://github.com/Kieranator5050/tutorialsite-bootstrap" target="_blank">
@@ -46,7 +46,7 @@ export default {
       <Card
       class="clickable"
       heading="Emojipedia"
-      source-img="/images/portfolio/emojipedia.png"
+      source-img="/images/emojipedia.png"
       >
       <p>Simple react website that uses an API to get emoji definitions</p>
       <a class="btn" href="https://github.com/Kieranator5050/emojipedia" target="_blank">
@@ -58,7 +58,7 @@ export default {
     <a>
       <Card
       heading="GasVis"
-      source-img="/images/portfolio/gasvis.png"
+      source-img="/images/gasvis.png"
       >
       <p>Mobile application designed to provide gas prices within Jamaica</p>
       <p>Created used Flutter, FastAPI and Firebase</p>

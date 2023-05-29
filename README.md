@@ -1,7 +1,7 @@
 # Kieran's Personal Website
 
 ## Deployment Guide
-https://dev.to/the_one/deploy-to-github-pages-like-a-pro-with-github-actions-4hdg
+https://www.youtube.com/watch?v=yo2bMGnIKE8&ab_channel=LearnVue
 
 ## Recommended IDE Setup
 
