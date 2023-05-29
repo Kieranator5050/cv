@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <title>Kieran's Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://kit.fontawesome.com/75652bcbf3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!--Header Section-->
+    <header>
+
+      <!--Container For Header Contents-->
+      <div class="container-fluid text-center m-0 p-0" id="mainHead">
+        
+        <img id="pfp" class="img-fluid mx-auto d-block rounded-circle kieranPfPImg" src="images/Kieran_potato.jpg" alt="kieran-pic">
+
+        <h1 id="profileHeader">KIERAN JAGGERNAUTH</h1>
+        <p class="lead">
+          <a id="swenLink" class="text-decoration-none" type="button">
+            <i class="fa-solid fa-code text-primary"></i> SOFTWARE ENGINEER
+          </a>
+        </p>
+        <p class="lead">
+          <a id="webDevLink" class="text-decoration-none" type="button">
+            <i class="fa-solid fa-window-maximize text-primary"></i> WEB DEVELOPER
+          </a>
+        </p>
+        <p class="lead">
+          <a id="musLink" class="text-decoration-none" type="button">
+            <i class="fa-solid fa-music text-primary"></i> MUSICIAN
+          </a>
+        </p>
+      </div>
+
+      <!--SWEN Container-->
+      <div class="container-fluid m-0 p-5 skilldiv" id="swenDiv">
+        <img id="pfp" class="img-fluid mx-auto d-block skillPic" src="images/coding.png" alt="swenpic">
+        <h2 id="swenHeader" class="text-center fw-bold">SOFTWARE ENGINEER</h2>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-center">
+          <div class="skillContainer">
+            <h4>Languages</h4>
+            <ul class="list-unstyled">
+              <li>Python&nbsp;&nbsp;<strong>★ ★ ★ ★ ★</li>
+              <li>Java&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ★ ☆</li>
+              <li>C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ☆ ☆</li>
+              <li>C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ☆ ☆ ☆</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!--WEB DEV Container-->
+      <div class="container-fluid m-0 p-5 skilldiv" id="wdevDiv">
+        <img id="pfp" class="img-fluid mx-auto d-block skillPic" src="images/world-wide-web.png" alt="webpic">
+        <h2 id="wdevHeader" class="text-center fw-bold">WEB DEVELOPER</h2>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-center">
+
+          <div class="flex-item">
+            <div class="skillContainer">
+              <h4>Frontend</h4>
+              <ul class="list-unstyled">
+                <li>HTML | CSS&nbsp;&nbsp;★ ★ ★ ★ ★</li>
+                <li>Javascript&nbsp;&nbsp;★ ★ ★ ★ ★</li>
+                <li>Bootstrap&nbsp;&nbsp;&nbsp;★ ★ ★ ★ ☆</li>
+                <li>Tailwind&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ★ ☆</li>
+                <li>Vue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ☆ ☆ ☆</li>
+                <li>React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;☆ ☆ ☆ ☆ ☆</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex-item">
+            <div class="skillContainer">
+              <h4>Backend</h4>
+              <ul class="list-unstyled">
+                <li>Flask&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ★ ★</li>
+                <li>Django&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ★ ☆</li>
+                <li>PHP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ★ ☆</li>
+                <li>Laravel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ ★ ★ ☆ ☆</li>
+                <li>Node.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;☆ ☆ ☆ ☆ ☆</li>
+                <li>Express.js&nbsp;&nbsp;☆ ☆ ☆ ☆ ☆</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+      
+      <!--MUSIC Container-->
+      <div class="container-fluid m-0 p-5 skilldiv" id="musDiv">
+        <img id="pfp" class="img-fluid mx-auto d-block skillPic" src="images/piano.png" alt="musPic">
+        <h2 id="musHeader" class="text-center fw-bold">MUSICIAN</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quae nobis distinctio, recusandae voluptas explicabo nulla laboriosam corporis veniam harum, hic, tempora assumenda reprehenderit placeat cupiditate ad. Facilis, quisquam possimus.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed culpa dolorem eum ducimus iusto totam minus. Eius, quis sint consequuntur harum totam quidem dolorem commodi labore maiores doloremque dolore?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus eligendi molestias tenetur cumque cupiditate, modi necessitatibus exercitationem ut distinctio? Ea doloremque delectus, sint esse enim error unde consequuntur voluptatum?</p>
+        <p>Test Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto magnam consequatur est rem blanditiis? Vitae ipsa excepturi est aperiam sint culpa quidem beatae quis in, corporis quisquam itaque soluta illum.</p>
+      </div>
+
+      <!--Last Image-->
+      <img class="img-fluid mx-auto d-block" id="kieranDeskImg" src="images/computer2mod.png" alt="techpic">
+      
+    </header>
+
+    <footer>
+      <div class="container-fluid text-center" id="contactInfo">
+        <a class="btn" href="mailto:kieranjag@hotmail.com">
+          <img src="images/hotmail.png" alt="">
+        </a>
+        <a class="btn" href="http://www.linkedin.com/in/kieran-jaggernauth-0750161b1">
+          <img src="images/linkedin.png" alt="">
+        </a>
+        <a class="btn" href="https://github.com/Kieranator5050">
+          <img src="images/github.png" alt="">
+        </a>
+        <a class="btn" href="https://stackoverflow.com/users/11053112/kieranator5050">
+          <img src="images/stack-overflow.png" alt="">
+        </a>
+        <p>© 2022 Kieran Jaggernauth.</p>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
