@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Landing from '../views/Landing.vue';
-import Certifications from '../views/Certs.vue';
+const Landing = () => import('../views/Landing.vue');
+const Certifications = () => import('../views/Certs.vue');
 import Portfolio from '../views/Portfolio.vue';
 import Experience from '../views/Experience.vue';
 import About from '../views/About.vue';
