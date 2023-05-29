@@ -2,7 +2,7 @@
   "name": "kieran-website",
   "version": "0.0.0",
   "private": true,
-  "homepage": "/cv/",
+  "homepage": "",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
