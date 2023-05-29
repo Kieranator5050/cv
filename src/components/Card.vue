@@ -26,7 +26,7 @@ export default {
 <style lang="scss" scoped>
 .card{
   background-color: #101721;
-  margin: 0 10px 10px 10px;
+  margin: 0 20px 10px 20px;
 }
 
 h4{
