@@ -2,6 +2,12 @@
 
 ## Deployment Guide
 https://www.youtube.com/watch?v=yo2bMGnIKE8&ab_channel=LearnVue
+```sh
+npm run build
+git add dist -f
+git commit -m "Deploy"
+git subtree push --prefix dist origin +gh-pages
+```
 
 ## Recommended IDE Setup
 
