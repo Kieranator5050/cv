@@ -12,16 +12,16 @@ export default {
 <template>
   <div class="container-fluid text-center" id="contactInfo">
     <a class="btn" href="mailto:kieranjag@hotmail.com">
-      <img src="images/hotmail.png" alt="">
+      <img src="/images/hotmail.png" alt="">
     </a>
     <a class="btn" href="http://www.linkedin.com/in/kieran-jaggernauth-0750161b1">
-      <img src="images/linkedin.png" alt="">
+      <img src="/images/linkedin.png" alt="">
     </a>
     <a class="btn" href="https://github.com/Kieranator5050">
-      <img src="images/github.png" alt="">
+      <img src="/images/github.png" alt="">
     </a>
     <a class="btn" href="https://stackoverflow.com/users/11053112/kieranator5050">
-      <img src="images/stack-overflow.png" alt="">
+      <img src="/images/stack-overflow.png" alt="">
     </a>
     <p>© 2022 Kieran Jaggernauth.</p>
   </div>

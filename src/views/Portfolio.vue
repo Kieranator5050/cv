@@ -1,5 +1,5 @@
 <script lang="ts">
-import Card from '../components/Card.vue';
+import Card from '@/components/Card.vue';
 export default {
     name: "Portfolio",
     created() { },
@@ -17,12 +17,12 @@ export default {
       <Card
       class="clickable"
       heading="SpeakEzAAC"
-      source-img="images/portfolio/speakez.png"
+      source-img="/images/portfolio/speakez.png"
       >
       <p>Capstone Project for Computer Science at UWI</p>
       <p>An intuitive AAC appliction designed to help children with speech or hearing impediments communicate</p>
       <a class="btn" href="https://github.com/J11an/COMP3901-Capstone-Speak-Ez-AAC" target="_blank">
-        <img src="images/github.png" alt="">
+        <img src="/images/github.png" alt="">
       </a>
       </Card>    
     </a>
@@ -32,11 +32,11 @@ export default {
       <Card
       class="clickable"
       heading="TinDog"
-      source-img="images/portfolio/tindog.png"
+      source-img="/images/portfolio/tindog.png"
       >
       <p>Simple bootstrap website built for responsiveness</p>
       <a class="btn" href="https://github.com/Kieranator5050/tutorialsite-bootstrap" target="_blank">
-        <img src="images/github.png" alt="">
+        <img src="/images/github.png" alt="">
       </a>
       </Card>
     </a>
@@ -46,11 +46,11 @@ export default {
       <Card
       class="clickable"
       heading="Emojipedia"
-      source-img="images/portfolio/emojipedia.png"
+      source-img="/images/portfolio/emojipedia.png"
       >
       <p>Simple react website that uses an API to get emoji definitions</p>
       <a class="btn" href="https://github.com/Kieranator5050/emojipedia" target="_blank">
-        <img src="images/github.png" alt="">
+        <img src="/images/github.png" alt="">
       </a>
       </Card>
     </a>
@@ -58,7 +58,7 @@ export default {
     <a>
       <Card
       heading="GasVis"
-      source-img="images/portfolio/gasvis.png"
+      source-img="/images/portfolio/gasvis.png"
       >
       <p>Mobile application designed to provide gas prices within Jamaica</p>
       <p>Created used Flutter, FastAPI and Firebase</p>

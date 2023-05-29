@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="container-fluid text-center m-0 pt-5 p-1" id="mainHead">
         
-    <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg mb-2" src="images/Kieran_potato.jpg" alt="kieran-pic">
+    <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg mb-2" src="/images/Kieran_potato.jpg" alt="kieran-pic">
 
     <RouterLink class="title text-decoration-none name" to="/"> KIERAN JAGGERNAUTH </RouterLink>
     
