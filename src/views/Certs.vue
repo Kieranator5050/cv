@@ -13,13 +13,18 @@ export default {
 
 <template>
   <div class="card-group">
-    <Card source-img="images/certs/cpsa-f.png" heading="ISAQB CPSA-F">
-      <p class="card-text">Certified Professional for Software Architecture - Foundation Level</p>
-    </Card>
+    <a href="https://www.credly.com/badges/7d8ee144-75ac-4478-9e43-7f8b7731d406/public_url" target="_blank">
+      <Card class="clickable" source-img="images/certs/cpsa-f.png" heading="ISAQB CPSA-F">
+        <p class="card-text">Certified Professional for Software Architecture - Foundation Level</p>
+      </Card>
+    </a>
 
-    <Card source-img="images/certs/aws-cloudpracticioner.png" heading="AWS CLF-01">
-      <p class="card-text">AWS Cloud Practitioner Foundational</p>
-    </Card>
+    <a href="https://www.credly.com/badges/efbd111f-a0d6-463a-a119-81e531f5af14/public_url" target="_blank">
+      <Card class="clickable" source-img="images/certs/aws-cloudpracticioner.png" heading="AWS CLF-01">
+        <p class="card-text">AWS Cloud Practitioner Foundational</p>
+      </Card>
+    </a>
+
 
     <Card source-img="images/certs/PMCert.png" heading="Project Management">
       <p class="card-text">Mona School of Business & Management - Principles & Practicies of Project Management Certificate of Achievement</p>
@@ -34,4 +39,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+a{
+  text-decoration: none;
+}
+.clickable:hover{
+  transform: scale(1.05);
+  background-color: #1c293a;
+}
 </style>
