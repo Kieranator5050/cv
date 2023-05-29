@@ -62,8 +62,11 @@ a{
   transition: 400ms;
   margin: 15px;
   font-size: 18px;
+  letter-spacing: 1.5px;
   @media only screen and (max-width: 600px) {
     margin: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
   &:hover{
       transition: 200ms;
