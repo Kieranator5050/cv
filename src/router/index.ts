@@ -6,7 +6,7 @@ import Experience from '../views/Experience.vue';
 import About from '../views/About.vue';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/cv/'),
   routes: [
     {
       path: '/',
