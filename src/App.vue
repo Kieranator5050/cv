@@ -47,13 +47,13 @@ main{
   position: relative;
   display: flex;
   flex-direction: column;
-  flex: auto;
   align-items: center;
 }
 
 footer{
   background-color: #1c283b;
   margin-top: auto;
+  flex: auto;
 }
 
 .fade-enter-active {

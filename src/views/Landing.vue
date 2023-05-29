@@ -39,6 +39,9 @@ export default {
 #kieranDeskImg{
   transition: 400ms;
   width: 50%;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 }
 
 </style>
