@@ -9,13 +9,17 @@ export default {
     sourceImg: String,
     heading: String
   },
-  methods: {},
+  methods: {
+    getPic () {
+      return '/'+this.sourceImg;
+    }
+  },
 };
 </script>
 
 <template>
   <div class="card" style="width: 18rem;">
-    <img :src="'/'+sourceImg" class="card-img-top" :alt="sourceImg">
+    <img :src="getPic()" class="card-img-top" :alt="sourceImg">
     <div class="card-body">
       <h4 class="card-title">{{ heading }}</h4>
       <slot></slot>
