@@ -23,7 +23,7 @@ export default {
     <a class="btn" href="https://stackoverflow.com/users/11053112/kieranator5050">
       <img src="/images/stack-overflow.png" alt="">
     </a>
-    <p>© 2022 Kieran Jaggernauth.</p>
+    <p>© {{ new Date().getFullYear() }} Kieran Jaggernauth.</p>
   </div>
 </template>
 

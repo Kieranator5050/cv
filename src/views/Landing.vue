@@ -23,6 +23,17 @@ export default {
 .landing-header{
   display: flex;
   flex-direction: row;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.landing-header > h2{
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
 
 #kieranDeskImg{

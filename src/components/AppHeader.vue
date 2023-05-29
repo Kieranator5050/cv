@@ -28,7 +28,7 @@ export default {
           <i :class="$route.path==='/experience' ? 'fa-solid fa-timeline text-warning' : 'fa-solid fa-timeline'"></i> EXPERIENCE
         </RouterLink>
         <RouterLink to="/about" class="text-decoration-none" type="button">
-          <i :class="$route.path==='/about' ? 'fa-solid fa-user text-warning' : 'fa-solid fa-user'"></i> About
+          <i :class="$route.path==='/about' ? 'fa-solid fa-user text-warning' : 'fa-solid fa-user'"></i> ABOUT
         </RouterLink>
     </nav>
 
