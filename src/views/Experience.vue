@@ -19,7 +19,7 @@ export default {
       <TimelineRow 
       date="June, 2020" 
       heading="Mona School of Business" 
-      source-img="/images/msbm.png"
+      source-img="images/msbm.png"
       >
         <h3>Technical Support Representative</h3>
         <h4>Responsibilities</h4>
@@ -40,7 +40,7 @@ export default {
       <TimelineRow 
       date="October, 2022" 
       heading="Bloom Project" 
-      source-img="/images/techports.png"
+      source-img="images/techports.png"
       >
         <h3>Backend API Developer</h3>
         <h4>Responsibilities</h4>
@@ -56,7 +56,7 @@ export default {
       <TimelineRow 
       date="November, 2022" 
       heading="Seeds for the Future" 
-      source-img="/images/huawei.png"
+      source-img="images/huawei.png"
       >
         <h3>Participant</h3>
         <h4>Responsibilities</h4>

@@ -15,7 +15,7 @@ export default {
 
 <template>
   <div class="card" style="width: 18rem;">
-    <img :src="sourceImg" class="card-img-top" :alt="sourceImg">
+    <img :src="'/'+sourceImg" class="card-img-top" :alt="sourceImg">
     <div class="card-body">
       <h4 class="card-title">{{ heading }}</h4>
       <slot></slot>
