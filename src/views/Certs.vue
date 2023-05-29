@@ -25,20 +25,34 @@ export default {
       </Card>
     </a>
 
+    <a>
+      <Card source-img="/images/PMCert.png" heading="Project Management">
+        <p class="card-text">Mona School of Business & Management - Principles & Practicies of Project Management Certificate of Achievement</p>
+      </Card>
+    </a>
 
-    <Card source-img="/images/PMCert.png" heading="Project Management">
-      <p class="card-text">Mona School of Business & Management - Principles & Practicies of Project Management Certificate of Achievement</p>
-    </Card>
 
-    <Card source-img="/images/seed4future.png" heading="Seeds for the Future">
-      <p class="card-text">Huawei - Seeds for the Future Certification of Participation</p>
-      <p class="card-text">Learned about 5G, Cloud Computing, AI & Digital Power</p>
-    </Card>
+    <a>
+      <Card source-img="/images/seed4future.png" heading="Seeds for the Future">
+        <p class="card-text">Huawei - Seeds for the Future Certification of Participation</p>
+        <p class="card-text">Learned about 5G, Cloud Computing, AI & Digital Power</p>
+      </Card>
+    </a>
+
   </div>
 
 </template>
 
 <style lang="scss" scoped>
+.card-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
 a{
   text-decoration: none;
 }
