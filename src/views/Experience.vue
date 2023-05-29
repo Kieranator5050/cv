@@ -38,20 +38,7 @@ export default {
       </TimelineRow>
 
       <TimelineRow 
-      date="November, 2022" 
-      heading="Seeds for the Future" 
-      source-img="images/logos/huawei.png"
-      >
-        <h3>Participant</h3>
-        <h4>Responsibilities</h4>
-        <ul class="list-group text-start">
-          <li class="list-group-item">Learned about topics in the fields of 5G, AI and Cloud Computing from industry experts.</li>
-          <li class="list-group-item">Created a project in line with the UN Sustainable Development Goals.</li>
-        </ul>
-      </TimelineRow>
-
-      <TimelineRow 
-      date="November, 2022" 
+      date="October, 2022" 
       heading="Bloom Project" 
       source-img="images/logos/techports.png"
       >
@@ -63,6 +50,19 @@ export default {
           <li class="list-group-item">Analyzed the feasibility of the solution and performed a competitor’s analysis </li>
           <li class="list-group-item">Moderated Sprint Cycles and created the project structure</li>
           <li class="list-group-item">Assisted the team with frontend prototyping and design</li>
+        </ul>
+      </TimelineRow>
+
+      <TimelineRow 
+      date="November, 2022" 
+      heading="Seeds for the Future" 
+      source-img="images/logos/huawei.png"
+      >
+        <h3>Participant</h3>
+        <h4>Responsibilities</h4>
+        <ul class="list-group text-start">
+          <li class="list-group-item">Learned about topics in the fields of 5G, AI and Cloud Computing from industry experts.</li>
+          <li class="list-group-item">Created a project in line with the UN Sustainable Development Goals.</li>
         </ul>
       </TimelineRow>
 
