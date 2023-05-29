@@ -10,7 +10,11 @@ export default {
     heading: String,
     sourceImg: String,
   },
-  methods: {},
+  methods: {
+    getPic () {
+      return '/cv/'+this.sourceImg;
+    }
+  },
 };
 </script>
 
@@ -20,7 +24,7 @@ export default {
       {{ date }}
     </div>
     <div class="timeline-content">
-      <img class="timeline-image" :src="'/'+sourceImg"/>
+      <img class="timeline-image" :src="getPic()"/>
       <h2 class="heading">{{ heading }}</h2>
       <slot></slot>
     </div>

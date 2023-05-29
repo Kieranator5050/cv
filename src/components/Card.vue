@@ -11,7 +11,7 @@ export default {
   },
   methods: {
     getPic () {
-      return '/'+this.sourceImg;
+      return '/cv/'+this.sourceImg;
     }
   },
 };
