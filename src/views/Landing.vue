@@ -24,7 +24,7 @@ export default {
     <h2 :class="mode===3 ? 'active' : ''" @click="setMode(3)">Musician</h2>
   </div>
 
-  <img :src="'cv/images/computer2mod.png'" :v-bind:alt="mode" class="img-fluid mx-auto d-block" id="kieranDeskImg" >
+  <img :src="'/cv/images/computer2mod.png'" :v-bind:alt="mode" class="img-fluid mx-auto d-block" id="kieranDeskImg" >
 </template>
 
 <style lang="scss" scoped>

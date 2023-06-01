@@ -12,7 +12,7 @@ export default {
   methods: {
     loadImg(mode: number | undefined){
       if (mode) {
-        const imgArr = ["cv/images/Kieran_potato.jpg","cv/images/Kieran_dev.jpg","cv/images/Kieran_music.jpg"]
+        const imgArr = ["/cv/images/Kieran_potato.jpg","/cv/images/Kieran_dev.jpg","/cv/images/Kieran_music.jpg"]
         return imgArr[mode-1]; //Mode number starts at 1
       }
     }
