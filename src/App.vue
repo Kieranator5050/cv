@@ -56,18 +56,22 @@ footer{
   flex: auto;
 }
 
-.fade-enter-active {
-  transition: all 0.5s ease-out;
+.fade-enter-active{
+  transition: all 0.5s ease-in-out;
 }
 
 .fade-leave-active {
-  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
+  transition: all 0.5s ease-in-out;
+  transform: translateX(15px);
 }
 
-.fade-enter-from {
+.fade-enter-from{
+  transform: translateY(30px);
   opacity: 0;
 }
+
 .fade-leave-to {
+  transform: translateY(30px);
   opacity: 0;
 }
 </style>
