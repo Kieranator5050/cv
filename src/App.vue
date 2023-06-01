@@ -5,7 +5,13 @@ import AppFooter from './components/AppFooter.vue';
 export default {
   name: "App",
   components: {AppHeader, AppFooter},
-  created() {},
+  created() {
+    const storedMode = localStorage.getItem('mode');
+    if (storedMode) {
+      this.mode = parseInt(storedMode);
+    }
+    
+  },
   data() {
     return {
       mode: 1
@@ -14,6 +20,7 @@ export default {
   methods: {
     setMode(newMode: number){
       this.mode = newMode;
+      localStorage.setItem('mode',this.mode.toString());
     }
   },
 };
