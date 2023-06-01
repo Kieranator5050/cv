@@ -3,17 +3,27 @@ import { RouterLink } from 'vue-router';
 export default {
   name: "AppHeader",
   created() {},
+  props: {
+    mode: Number
+  },
   data() {
     return {};
   },
-  methods: {},
+  methods: {
+    loadImg(mode: number | undefined){
+      if (mode) {
+        const imgArr = ["/images/Kieran_potato.jpg","/images/Kieran_dev.jpg","/images/Kieran_music.jpg"]
+        return imgArr[mode-1]; //Mode number starts at 1
+      }
+    }
+  },
 };
 </script>
 
 <template>
   <div class="container-fluid text-center m-0 pt-5 p-1" id="mainHead">
         
-    <img class="img-fluid mx-auto d-block rounded-circle kieranPfPImg mb-2" src="/images/Kieran_potato.jpg" alt="kieran-pic">
+    <img :src="loadImg(mode)" v-bind:alt="mode?.toString()" class="img-fluid mx-auto d-block rounded-circle kieranPfPImg mb-2"  >
 
     <RouterLink class="title text-decoration-none name" to="/"> KIERAN JAGGERNAUTH </RouterLink>
     

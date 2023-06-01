@@ -7,20 +7,26 @@ export default {
   components: {AppHeader, AppFooter},
   created() {},
   data() {
-    return {};
+    return {
+      mode: 1
+    };
   },
-  methods: {},
+  methods: {
+    setMode(newMode: number){
+      this.mode = newMode;
+    }
+  },
 };
 </script>
 
 <template>
   <header>
-    <AppHeader/>
+    <AppHeader :mode="mode"/>
   </header>
 
   <main>
     <Transition name="fade" appear>
-      <RouterView />
+      <RouterView @updateMode="setMode" :mode="mode" />
     </Transition>
   </main>
 

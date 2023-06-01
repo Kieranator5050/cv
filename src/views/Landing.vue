@@ -2,18 +2,26 @@
 export default {
   name: "Landing",
   created() {},
+  props:{
+    mode: Number
+  },
   data() {
     return {};
   },
-  methods: {},
+  methods: {
+    setMode(screen: number){
+      //Emiting event (updateMode) to parent component (App)
+      this.$emit("updateMode", screen);
+    }
+  },
 };
 </script>
 
 <template>
   <div class="landing-header">
-    <h2>Software Architect</h2>
-    <h2>Web Developer</h2>
-    <h2>Musician</h2>
+    <h2 :class="mode===1 ? 'active' : ''" @click="setMode(1)">Software Architect</h2>
+    <h2 :class="mode===2 ? 'active' : ''" @click="setMode(2)">Web Developer</h2>
+    <h2 :class="mode===3 ? 'active' : ''" @click="setMode(3)">Musician</h2>
   </div>
 
   <img class="img-fluid mx-auto d-block" id="kieranDeskImg" src="/images/computer2mod.png" alt="techpic">
@@ -34,6 +42,16 @@ export default {
     font-size: 14px;
     margin-top: 10px;
   }
+
+  &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.active{
+  font-weight: bolder;
+  transform: scale(1.1);
 }
 
 #kieranDeskImg{
