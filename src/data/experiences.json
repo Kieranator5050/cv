@@ -1,0 +1,52 @@
+[
+    {
+        "heading": "Grid Dynamics",
+        "image": "images/GD.png",
+        "role": "Software Engineer",
+        "description": "Primarily working as a frontend web developer. Contracted to work and support under other companies such as most recently Macys. Here I employ global best engineering practicies and primarily utilize cloud-based architectures",
+        "skills": [
+            "Javascript", "Vue.js", "React.js", "Next.js", "Node.js", "Express.js"
+        ],
+        "date": "Current"
+    },
+    {
+        "heading": "National Commercial Bank Jamaica Limited",
+        "image": "images/NCB.png",
+        "role": "Software Engineer",
+        "description": "Worked as a software engineer primarly focus on supporting the bank's business elements. Worked on various software enhancements and bugfixes. Engineered a power app to assist with the deposit tracking process",
+        "skills": [
+            "Java", "Springboot", "PowerApps"
+        ],
+        "date": ""
+    },
+    {
+        "heading": "Seeds for the Future",
+        "image": "images/huawei.png",
+        "role": "Participant",
+        "description": "Programme where participants learned about 5G, AI & Cloud Computing. Participants also created a project in line with the UN Sustainable Development Goals.",
+        "skills": [
+            "Project Management"
+        ],
+        "date": ""
+    },
+    {
+        "heading": "Bloom Project",
+        "image": "images/techports.png",
+        "role": "Backend API Developer",
+        "description": "Programme where teams competed in an agile environment to create an application to present to investors. Here I lead the development process and scrum ceremonies in addition to helping the team with prototyping.",
+        "skills": [
+            "Python", "FastAPI", "Web Scraping"
+        ],
+        "date": ""
+    },
+    {
+        "heading": "Mona School of Business",
+        "image": "images/msbm.png",
+        "role": "Technical Support Representative",
+        "description": "Mainly a support role for students and staff. Here I assisted with troubleshooting hardware and software issues. I was also involved in various projects such as CSOD (Caribbean School of Data) & STATIN (Statistical Institute of Jamaica) digital classroom creation.",
+        "skills": [
+            "Troubleshooting", "MySQL"
+        ],
+        "date": ""
+    }
+]

@@ -34,6 +34,8 @@ export default {
 <style lang="scss">
 h2{
   font-size: 20px;
+  text-align: center;
+  pointer-events:none;
 }
 .timeline-image{
   width: 150px;
