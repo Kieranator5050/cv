@@ -43,6 +43,8 @@ export default {
     margin-top: 10px;
   }
 
+  pointer-events: all;
+
   &:hover{
     transform: scale(1.1);
     cursor: pointer;
