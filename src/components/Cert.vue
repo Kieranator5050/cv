@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <a :href="link" target="_blank" :class="link ? '' : 'disable-link'">
+  <a :href="link" target="_blank">
       <Card class="clickable" :source-img="image" :heading="heading">
         <p class="card-text" v-for="text in description">{{ text }}</p>
       </Card>
