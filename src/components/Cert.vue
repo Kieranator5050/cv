@@ -1,31 +1,28 @@
 <script lang="ts">
 import Card from '@/components/Card.vue';
-import Cert from '@/components/Cert.vue';
-import certs from '@/data/certs.json';
-
 export default {
-  components:{Card, Cert},
+  components:{Card},
   name: "Certifications",
   created() {},
   data() {
-    return {      
-      certs: certs
-    };
+    return {};
   },
   methods: {},
+  props: {
+    link: String,
+    image: String,
+    heading: String,
+    description: Array<String>
+  }
 };
 </script>
 
 <template>
-  <div class="card-group">
-    <Cert v-for="cert in certs"
-      :link="cert?.link"
-      :image="cert.image"
-      :heading="cert.heading"
-      :description="cert.description"
-    />
-  </div>
-
+  <a :href="link" target="_blank" :class="link ? '' : 'disable-link'">
+      <Card class="clickable" :source-img="image" :heading="heading">
+        <p class="card-text" v-for="text in description">{{ text }}</p>
+      </Card>
+  </a>
 </template>
 
 <style lang="scss" scoped>
@@ -44,5 +41,9 @@ a{
 .clickable:hover{
   transform: scale(1.05);
   background-color: #1c293a;
+}
+
+.disabled-link{
+  pointer-events: none;
 }
 </style>

@@ -1,0 +1,41 @@
+[
+    {
+        "link": "https://www.credly.com/badges/7d8ee144-75ac-4478-9e43-7f8b7731d406/public_url",
+        "image": "images/cpsa-f.png",
+        "heading": "ISAQB CPSA-F",
+        "description": ["Certified Professional for Software Architecture - Foundation Level"]
+    },
+    {
+        "link": "https://www.credly.com/badges/efbd111f-a0d6-463a-a119-81e531f5af14/public_url",
+        "image": "images/aws-cloudpracticioner.png",
+        "heading": "AWS Cloud Practitioner Foundational",
+        "description": ["AWS Cloud Practitioner Foundational"]
+    },
+    {
+        "link": "https://www.credential.net/fc81b6c2-af57-41fb-9b4c-6ecc7f18b844?key=823841cafca8bc525730d23c025b7ec5a99eec54a5d4daaeaac8e3fb179614fb",
+        "image": "images/gcpdl.png",
+        "heading": "GCP Cloud Digital Leader",
+        "description": ["Google Cloud Certified Cloud Digial Leader"]
+    },
+    {
+        "link": "https://learn.microsoft.com/en-us/users/kieranjaggernauth-8762/credentials/c70491601bba7b7b?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+        "image": "images/microsoft-certified-fundamentals-badge.svg",
+        "heading": "Microsoft Certified: Azure Fundamentals",
+        "description": ["Microsoft Certified: Azure Fundamentals"]
+    },
+    {
+        "link": null,
+        "image": "images/PMCert.png",
+        "heading": "Project Management",
+        "description": ["Mona School of Business & Management - Principles & Practicies of Project Management Certificate of Achievement"]
+    },
+    {
+        "link": null,
+        "image": "images/seed4future.png",
+        "heading": "Seeds for the Future",
+        "description": [
+            "Huawei - Seeds for the Future Certification of Participation",
+            "Learned about 5G, Cloud Computing, AI & Digital Power"
+        ]
+    }
+]
