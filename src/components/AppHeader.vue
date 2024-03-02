@@ -85,25 +85,6 @@ a{
 }
 
 .kieranPfPImg{
-  transition: 400ms;
   width: 160px;
-  animation: pulse 3s linear infinite;
-}
-/*
-  Image Animation
-*/
-@keyframes pulse {
-  0% {
-      -webkit-transform: scale(1.0);
-      transform: scale(1.0);
-  }
-  50% {
-     -webkit-transform: scale(1.05);
-     transform: scale(1.05);
-  }
-  100% {
-      -webkit-transform: scale(1);
-     transform: scale(1);
-  }
 }
 </style>
